@@ -141,7 +141,7 @@ const sliderLists = [
     image: "/images/drink1.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "White rum, fresh mint, lime juice, and a touch of sugar, finished with a splash of soda water. Crisp, cool, and endlessly refreshing.",
   },
   {
     id: 2,
@@ -149,15 +149,15 @@ const sliderLists = [
     image: "/images/drink2.png",
     title: "A Zesty Classic That Never Fails",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "Muddled raspberries and mint with white rum, bright lime, and a hint of sugar, topped with soda. Berry-forward, vibrant, and ultra-refreshing.",
   },
   {
     id: 3,
     name: "Violet Breeze",
     image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    title: "Floral, Fresh, and Effervescent",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "A delicate mix of violet liqueur, citrus, and a light base spirit, lifted with soda for a fragrant, floral sip and a breezy finish.",
   },
   {
     id: 4,
