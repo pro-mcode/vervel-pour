@@ -87,7 +87,7 @@ const Hero = () => {
     // }
     const timeLine = gsap.timeline({
       scrollTrigger: {
-        trigger: "video",
+        trigger: ".video",
         start: startValue,
         end: endValue,
         scrub: true,
