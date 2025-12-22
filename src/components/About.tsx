@@ -34,6 +34,11 @@ const About = () => {
         },
         "-=0.5"
       );
+
+    return () => {
+      titleSplit.revert();
+      scrollTimeline.kill();
+    };
   });
   return (
     <div id="about">
