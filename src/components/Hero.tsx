@@ -50,44 +50,9 @@ const Hero = () => {
     const startValue = isMobile ? "50% top" : "center 60%";
     const endValue = isMobile ? "120% top" : "bottom top";
 
-    // // Scroll-controlled video playback
-    // const video = videoRef.current;
-    // if (video) {
-    //   // Ensure the video doesn't auto-play by itself
-    //   video.pause();
-    //   video.currentTime = 0;
-
-    //   const createVideoScroll = () => {
-    //     const duration = video.duration || 1; // fallback to avoid NaN
-
-    //     // Kill any previous triggers for safety (hot reload/dev)
-    //     ScrollTrigger.getAll()
-    //       .filter((st) => st.vars?.id === "video-scroll")
-    //       .forEach((st) => st.kill());
-
-    //     gsap.to(video, {
-    //       currentTime: duration,
-    //       ease: "none",
-    //       scrollTrigger: {
-    //         id: "video-scroll",
-    //         trigger: "#hero",
-    //         start: startValue,
-    //         end: endValue,
-    //         scrub: true,
-    //       },
-    //     });
-    //   };
-
-    //   if (video.readyState >= 1 && !isNaN(video.duration)) {
-    //     createVideoScroll();
-    //   } else {
-    //     const onLoaded = () => createVideoScroll();
-    //     video.addEventListener("loadedmetadata", onLoaded, { once: true });
-    //   }
-    // }
     const timeLine = gsap.timeline({
       scrollTrigger: {
-        trigger: ".video",
+        trigger: "video",
         start: startValue,
         end: endValue,
         scrub: true,
