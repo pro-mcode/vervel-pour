@@ -8,7 +8,7 @@ const navLinks = [
     title: "About Us",
   },
   {
-    id: "work",
+    id: "art",
     title: "The Art",
   },
   {
@@ -134,14 +134,14 @@ const socials = [
   },
 ];
 
-const sliderLists = [
+const allCocktails = [
   {
     id: 1,
     name: "Classic Mojito",
     image: "/images/drink1.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
-      "White rum, fresh mint, lime juice, and a touch of sugar, finished with a splash of soda water. Crisp, cool, and endlessly refreshing.",
+      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
   },
   {
     id: 2,
@@ -149,15 +149,15 @@ const sliderLists = [
     image: "/images/drink2.png",
     title: "A Zesty Classic That Never Fails",
     description:
-      "Muddled raspberries and mint with white rum, bright lime, and a hint of sugar, topped with soda. Berry-forward, vibrant, and ultra-refreshing.",
+      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
   },
   {
     id: 3,
     name: "Violet Breeze",
     image: "/images/drink3.png",
-    title: "Floral, Fresh, and Effervescent",
+    title: "Simple Ingredients, Bold Flavor",
     description:
-      "A delicate mix of violet liqueur, citrus, and a light base spirit, lifted with soda for a fragrant, floral sip and a breezy finish.",
+      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
   },
   {
     id: 4,
@@ -179,5 +179,5 @@ export {
   openingHours,
   storeInfo,
   socials,
-  sliderLists,
+  allCocktails,
 };

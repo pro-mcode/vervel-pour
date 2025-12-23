@@ -48,15 +48,17 @@ const Hero = () => {
       .to(".left-leaf", { y: -300 }, 0);
 
     const startValue = isMobile ? "50% top" : "center 60%";
-    const endValue = isMobile ? "120% top" : "bottom top";
 
     const timeLine = gsap.timeline({
       scrollTrigger: {
         trigger: "video",
         start: startValue,
-        end: endValue,
+        // Dynamically end when the Cocktails section reaches its bottom
+        endTrigger: "#cocktails",
+        end: "bottom bottom",
         scrub: true,
         pin: true,
+        invalidateOnRefresh: true,
       },
     });
 
